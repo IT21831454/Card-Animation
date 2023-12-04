@@ -48,7 +48,8 @@ body{
     height: 400px;
     background-color: #fa6a6a;
     z-index: 787;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 12px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 
@@ -97,7 +98,7 @@ body{
 
 }
 .card{
-    border-radius: 8px ;
+    border-radius: 12px ;
 }
 /* 
 @keyframes example {
