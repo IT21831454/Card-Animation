@@ -91,10 +91,19 @@ body{
     background-color: #6c27f7;
     z-index: -4;
     rotate:-4deg;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 
 }
 .card{
     border-radius: 8px ;
-   
-
 }
+/* 
+@keyframes example {
+    0%   {background-color:red; rotate:-8deg;}
+    25%  {background-color:yellow; rotate:-16deg;}
+    50%  {background-color:blue; rotate:-24deg;}
+    75%  {background-color:green; rotate:-25deg;}
+    100% {background-color:red; rotate:-45deg;}
+  } */
