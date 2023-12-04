@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.cardBox{
+    width: 1000px;
+    height: 650px;
+    background-color: rgb(219, 187, 146);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.card1{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: yellow;
+    z-index: 2;
+    rotate: 6deg;
+  
+}
+.card2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #00ff80;
+    z-index: 3;
+    rotate: 5deg;
+}
+.cardFront{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #fa6a6a;
+    z-index: 787;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+.card4{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #4a484e;
+    z-index: 1;
+    rotate:4deg;
+
+}
+
+
+.card6{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #7237e8;
+    z-index: 1;
+    rotate:-6deg;
+
+}
+
+.card7{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #3bfb9b;
+    z-index: -3;
+    rotate:-5deg;
+
+}
+
+.card8{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #6c27f7;
+    z-index: -4;
+    rotate:-4deg;
+
+}
+.card{
+    border-radius: 8px ;
+   
+
+}
