@@ -9,8 +9,9 @@ Front.addEventListener('mousemove', function () {
     cards[3].style.rotate = "-11deg"
 
     cards[4].style.rotate = "8deg"
-    cards[5].style.rotate = "10deg"
-    cards[6].style.rotate = "12deg"
+    cards[5].style.rotate = "9deg"
+    cards[6].style.rotate = "10deg"
+    cards[6].style.rotate = "11deg"
 
 
 
